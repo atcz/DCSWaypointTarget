@@ -36,7 +36,7 @@ public class GUI {
         gui.add(displayTargetButton);
         gui.add(removeTargetButton);
 
-        standbyState();
+        displayState();
         frame = new JFrame("DCS Waypoint Target");
         frame.add(gui);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
